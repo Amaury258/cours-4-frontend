@@ -22,3 +22,4 @@ Créer un workflow github action qui :
 - dans `vite.config.js` utilisez le paramètre `base`pour specifier le chemin de vos fichiers sources
 - Utiliser des [artifacts](https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts)
 - Utiliser l'action fournit par [Cypress](https://docs.cypress.io/guides/continuous-integration/github-actions#Testing-with-Cypress-Docker-Images)
+
