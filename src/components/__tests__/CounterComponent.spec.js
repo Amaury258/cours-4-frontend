@@ -34,7 +34,9 @@ describe('Counter', () => {
       expect(counterStore.increment).toHaveBeenCalledTimes(1)
     })
     it('decrements counter', async () => {
+      //eslint-disable-next-line no-unused-vars
       const wrapper = mountCounter(50)
+      //eslint-disable-next-line no-unused-vars
       const counterStore = useCounterStore()
       await wrapper.find('button[id=decrement]').trigger('click')
       expect(counterStore.decrement).toHaveBeenCalledTimes(1)
